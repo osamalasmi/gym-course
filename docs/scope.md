@@ -11,8 +11,8 @@ Deze scope is de basis waarop mijn werk beoordeeld wordt in Fase 2 (Realiseren) 
 **zodat** ik alleen cursussen kan doen als mijn abonnement dat toestaat.
 
 Wat moet werken:
-* [ ] Zonder addendum kan je niet inschrijven, en je krijgt een duidelijke melding waarom niet.
-* [ ] Er zijn 3 cursussen: yoga, pilates, paaldansen.
+* Zonder addendum kan je niet inschrijven, en je krijgt een duidelijke melding waarom niet.
+* Er zijn 3 cursussen: yoga, pilates, paaldansen.
 
 ## US-05: Inschrijven voor een cursus (Must)
 
@@ -20,9 +20,9 @@ Wat moet werken:
 **zodat** ik zeker weet dat ik een plek heb.
 
 Wat moet werken:
-* [ ] De sporter kan de cursussen en tijden zien.
-* [ ] De inschrijving telt pas als het bevestigd is.
-* [ ] Je kan je niet dubbel inschrijven voor hetzelfde moment.
+* De sporter kan de cursussen en tijden zien.
+* De inschrijving telt pas als het bevestigd is.
+* Je kan je niet dubbel inschrijven voor hetzelfde moment.
 
 ## US-06: Inschrijving annuleren (Could extra, als er tijd is)
 
@@ -30,8 +30,8 @@ Wat moet werken:
 **zodat** iemand anders die plek kan krijgen.
 
 Wat moet werken:
-* [ ] Als je annuleert, komt de plek weer vrij.
-* [ ] Je krijgt een bevestiging van de annulering.
+* Als je annuleert, komt de plek weer vrij.
+* Je krijgt een bevestiging van de annulering.
 
 ## Doe ik niet
 
