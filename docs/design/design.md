@@ -29,5 +29,30 @@ Het datamodel bestaat uit vier tabellen: 'users', 'subscriptions', 'courses' en 
 
 *(https://dbdiagram.io/d/gym-course-6a99440d5450bea1bedb8b35)*
 
-<img width="930" height="762" alt="image" src="https://github.com/user-attachments/assets/424fdda4-ae13-416c-941a-037a131d90e2" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/424fdda4-ae13-416c-941a-037a131d90e2" />
+
+## 3. Gebruikersperspectief
+
+### Use case diagram
+
+*(https://www.plantuml.com/plantuml/uml/PSv12eD0343HVKuHt5lGxeeCWaSeFK0w1ZewZIMPzFnLA2vqbv17-BqLqkBl31JBedZ_B5fOmOqZ6MCrk9eR9h7uqZHzMIeamyVGd0o9U6RTHNiKne9FdjCqx-OAiBx2IzXcl67N9OdPHmu1u1-3TRsTcyFUGiyohka_)*
+
+<img width="600" alt="Use case diagram cursusflow" src="https://github.com/user-attachments/assets/e5d1bf76-0d1c-4d97-80cd-88542af8d688" />
+
+Het diagram bevat een actor: de sporter.  Een medewerker rol is bewust buiter scope gelaten, omdat geen van de gekozen user stories (US-04, US-05, US-06) een medewerker-actie beschrijft.
+
+De sporter heeft twee hoofddoelen:
+- **Cursus inschrijven**
+- **Cursus annuleren**
+
+Daarnaast bevat het diagram de use case **Cursussen bekijken**, die via een
+`<<include>>`-relatie is gekoppeld aan "Cursus inschrijven". Cursussen bekijken
+is namelijk geen doel dat de sporter apart kiest, maar een vaste eerste stap
+die altijd onderdeel is van het inschrijfproces (zie US-05: "de sporter ziet de
+beschikbare cursussen en momenten").
+
+### Use case beschrijvingen
+
+
+
 
