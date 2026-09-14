@@ -72,8 +72,6 @@ beschikbare cursussen en momenten").
 - Geen addendum: foutmelding, inschrijving wordt geweigerd.
 - Al actief ingeschreven voor dit moment: foutmelding, dubbele inschrijving wordt voorkomen.
 
----
-
 ### Use case: Cursus annuleren
 
 **Actor:** Sporter
@@ -89,18 +87,32 @@ beschikbare cursussen en momenten").
 **Alternatieve/foutpaden:**
 - Geen actieve inschrijving gevonden -> foutmelding.
 
+---
 
 ### Wireframes / mock-ups
 De wireframes (low-fidelity, gemaakt in HTML/CSS en via de html-to-design
 plugin naar Figma geïmporteerd) dekken de volledige cursusflow: login,
 cursusoverzicht, inschrijving bevestigen, succes- en foutmeldingen, en
 "mijn inschrijvingen" met annuleren. Elk scherm volgt direct uit de use
-case beschrijvingen — elke stap en elk foutpad heeft zijn eigen scherm.
+case beschrijvingen, elke stap en elk foutpad heeft zijn eigen scherm.
 
 <img width="500" height="615" alt="image" src="https://github.com/user-attachments/assets/532716f5-61ef-4437-a965-4f866afef9fe" />
 <img width="500" height="618" alt="image" src="https://github.com/user-attachments/assets/832cd2be-2230-4147-8e7a-936f80bc4cfc" />
 <img width="500" height="618" alt="image" src="https://github.com/user-attachments/assets/70d1b7fa-dc1f-421f-bd0e-3792983c5c28" />
 <img width="500" height="617" alt="image" src="https://github.com/user-attachments/assets/83ce9afc-758d-4551-a041-23bd790fdc33" />
+
+## 4. Programmalogica
+
+### Activiteitendiagram: Cursus inschrijven
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/aa3552df-c04e-423e-b879-751dd844db73" />
+
+Na het bevestigen van de inschrijving checkt het systeem vier dingen
+op volgorde: is de sporter ingelogd, heeft hij een abonnement, heeft
+hij een addendum (US-04), en is hij al ingeschreven voor dit moment
+(US-05). Gaat er iets mis, dan krijgt de sporter een duidelijke
+foutmelding. Klopt alles, dan wordt de inschrijving opgeslagen als
+`active` en krijgt de sporter een bevestiging.
 
 
 
