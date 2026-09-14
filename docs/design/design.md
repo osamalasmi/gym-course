@@ -105,7 +105,7 @@ case beschrijvingen, elke stap en elk foutpad heeft zijn eigen scherm.
 
 ### Activiteitendiagram: Cursus inschrijven
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/aa3552df-c04e-423e-b879-751dd844db73" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/aa3552df-c04e-423e-b879-751dd844db73" />
 
 Na het bevestigen van de inschrijving checkt het systeem vier dingen
 op volgorde: is de sporter ingelogd, heeft hij een abonnement, heeft
